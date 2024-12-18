@@ -12,6 +12,12 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      
+      'limelight': ["Limelight", 'serif'],
+      'prosto': ["Prosto One", 'serif'],
+      
+    }
   },
   plugins: [],
 };
