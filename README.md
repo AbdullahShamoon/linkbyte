@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 LinkByte
 
-## Getting Started
+**A Simple and Minimalistic URL Shortener**  
 
-First, run the development server:
+LinkByte allows users to convert long URLs into short, customized links. With a clean interface and straightforward functionality, users can create short links with their preferred alias (if available).  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
+- **Custom Short Links**: Users can provide a preferred short link alias.  
+- **Real-Time Availability Check**: Checks if the custom short link is available before saving.  
+- **Minimalistic Design**: Clean, simple, and easy-to-use interface.  
+- **Full-Stack**: Built using Next.js (frontend + backend) and MongoDB for URL storage.  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
+- **Frontend**: Next.js (React-based framework)  
+- **Backend**: API routes with Next.js (server-side logic)  
+- **Database**: MongoDB (to store URL mappings)  
+- **Styling**: Tailwind CSS  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Home Page](public/Screenshot.png)
+![Home Page](public/Success.png)
+![Home Page](public/link.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AbdullahShamoon/linkbyte.git
+   ```
+
+2. **Navigate to the project folder**
+
+    ```bash
+    cd LinkByte
+    ```
+
+3. **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+4. **Create a .env.local file and add the following**
+
+    ```makefile
+    MONGODB_URI=your_mongodb_connection_string
+    ```
+
+5. **Run the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+6. **Open your browser and visit**
+
+    ```arduino
+    http://localhost:3000
+    ```
+
+---
+
+## 📦 Usage
+- Enter a long URL in the input box.
+- Provide a custom short link alias (optional).
+- Click "Shorten" to generate the link.
+- If the short link is available, it will be saved and displayed for you to copy and use.
+
+---
+
+## 🛠️ Future Enhancements
+- Link Analytics: Click tracking, date of creation, and more.
+- User Accounts: Let users manage and view their created short links.
+- Custom Expiration: Set expiration dates for short links.
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome
